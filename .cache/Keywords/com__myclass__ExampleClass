@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "4525C5DC3D92956893766F9BD8D7C9A7",
+  "keywordClasses": [
+    {
+      "name": "com.myclass.ExampleClass",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
