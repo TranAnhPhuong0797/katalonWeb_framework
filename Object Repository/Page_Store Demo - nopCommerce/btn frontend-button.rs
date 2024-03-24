@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn frontend-button</name>
+   <tag></tag>
+   <elementGuidId>692f2582-0315-47f7-85cd-b11076dc3617</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@class='btn frontend-button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.frontend-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Frontend&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e330c099-2228-407a-af59-7a1bf884bc0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn frontend-button</value>
+      <webElementGuid>c1c17b4d-b4bd-4268-9e96-bbea8c65e163</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://demo.nopcommerce.com/</value>
+      <webElementGuid>2af10e55-6051-4a95-b8d5-62db4fcd0be4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>f8bc26e2-3e3b-4f85-9cbf-3ba8e6cf5535</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Frontend </value>
+      <webElementGuid>6bb32940-8b90-42ef-a25d-66866ee8d9f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ph-topic&quot;)/div[@class=&quot;page-body page-body-wrapper&quot;]/div[@class=&quot;demo-section-wrapper&quot;]/div[@class=&quot;demo-section&quot;]/div[@class=&quot;demo-image-wrapper&quot;]/div[@class=&quot;demo-img&quot;]/div[@class=&quot;demo-buttons&quot;]/a[@class=&quot;btn frontend-button&quot;]</value>
+      <webElementGuid>78912764-7101-4c21-8280-f14978d57678</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ph-topic']/div[2]/div/div/div[2]/div/div/a[2]</value>
+      <webElementGuid>f00bab6f-f351-41f5-a810-7a967b687424</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin area'])[1]/following::a[1]</value>
+      <webElementGuid>13bd3469-b8ab-4ccd-b433-7dd646c8aed3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='nopCommerce Store Demo'])[1]/following::a[2]</value>
+      <webElementGuid>008fd05a-f398-48bb-8507-d12e4d56399a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The Perfect Solution!'])[1]/preceding::a[1]</value>
+      <webElementGuid>15878938-2ae2-4b36-8292-5110cf088535</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://demo.nopcommerce.com/')]</value>
+      <webElementGuid>0c02fe42-1e82-41ce-96da-da87ef698a7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]</value>
+      <webElementGuid>2755f395-11d9-4a18-8dc5-0073f525cd67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://demo.nopcommerce.com/' and (text() = ' Frontend ' or . = ' Frontend ')]</value>
+      <webElementGuid>f182a35d-8980-433c-b9d2-fb47d8e52913</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
