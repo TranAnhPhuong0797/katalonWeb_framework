@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Use groovy language to write script</description>
+   <name>TestCase_3_Write test case by script</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4f533bc4-9a4a-4c27-a037-81ce8740ada5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>53f1dbeb-6900-420b-bbb6-f7d0693a80e9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://demo.guru99.com/'</defaultValue>
+      <description></description>
+      <id>53f1dbeb-6900-420b-bbb6-f7d0693a80e9</id>
+      <masked>true</masked>
+      <name>URLlink</name>
+   </variable>
+</TestCaseEntity>
