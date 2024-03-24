@@ -25,4 +25,17 @@
       <testCaseId>Test Cases/CI CD Integration/CICD_Manual test case</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9a1a5825-8812-4cda-b5de-aacaa93ef499</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Demo WEB test case/TestCase_3_Write test case by script</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ac98c4c8-f740-4f7d-8174-d3c499036478</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
