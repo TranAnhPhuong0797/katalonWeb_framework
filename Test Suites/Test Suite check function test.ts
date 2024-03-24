@@ -15,14 +15,14 @@
       <guid>628589de-acf0-429d-abac-a8202ee290a5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Demo test case/TestCase_5_EnvironmentProfile</testCaseId>
+      <testCaseId>Test Cases/Demo WEB test case/TestCase_5_EnvironmentProfile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c8e5f734-0619-49fc-b94f-77d5f8ca3a99</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Demo test case/TestCase_3_Write test case by script</testCaseId>
+      <testCaseId>Test Cases/Demo WEB test case/TestCase_3_Write test case by script</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
