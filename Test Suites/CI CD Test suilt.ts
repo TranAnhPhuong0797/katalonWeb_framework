@@ -15,14 +15,14 @@
       <guid>4df4b551-b60a-4413-baf3-e00d872c4b16</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CI CD Integration/Login</testCaseId>
+      <testCaseId>Test Cases/CI CD Integration/CICD_Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>8312a2a6-8e93-447c-9572-9f6d2a4615a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CI CD Integration/TestCase_3_Write test case by script</testCaseId>
+      <testCaseId>Test Cases/CI CD Integration/CICD_Write test case by script</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -35,7 +35,7 @@
       <guid>c1ea5819-a7b5-49f1-9c43-370a0c9bef7c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CI CD Integration/TestCase_2_Manual test case</testCaseId>
+      <testCaseId>Test Cases/CI CD Integration/CICD_Manual test case</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
