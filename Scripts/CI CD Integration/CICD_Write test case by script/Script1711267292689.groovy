@@ -30,5 +30,7 @@ WebUI.waitForElementVisible(findTestObject('Page_Guru99 Bank Home Page/h2_Access
 
 WebUI.verifyElementText(findTestObject('Page_Guru99 Bank Home Page/h3_This access is valid only for 20 days'), 3000)
 
+WebUI.acceptAlert()
+
 WebUI.closeBrowser()
 
