@@ -26,6 +26,15 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <validationSteps>
+      <id>513b02b6-39b7-43a1-8f4a-87d4142c700c</id>
+      <name>ValidateRespone</name>
+      <type>JSON_SCHEMA</type>
+      <dataType>FILE</dataType>
+      <target>RESPONSE</target>
+      <data>Test Data/JsonResponeSchema.txt</data>
+      <activate>true</activate>
+   </validationSteps>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -45,6 +54,6 @@ WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
 
-assertThat(response.getStatusCode()).isIn(Arrays.asList(200, 201, 202))</verificationScript>
+assertThat(response.getStatusCode()).isIn(Arrays.asList(200, 201, 202, 203))</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
