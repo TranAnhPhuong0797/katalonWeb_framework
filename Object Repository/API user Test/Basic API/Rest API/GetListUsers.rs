@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GetList_User</name>
+   <name>GetListUsers</name>
    <tag></tag>
-   <elementGuidId>3f717fb8-795a-42c9-bea0-0ac947b92436</elementGuidId>
+   <elementGuidId>c5279749-5eec-4861-8845-ef05b46905d9</elementGuidId>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -26,15 +26,6 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
-   <validationSteps>
-      <id>b6694c9e-fa33-40b9-ab06-b4c289f403f0</id>
-      <name>Validation list user</name>
-      <type>JSON_SCHEMA</type>
-      <dataType>AUTO</dataType>
-      <target>RESPONSE</target>
-      <data></data>
-      <activate>false</activate>
-   </validationSteps>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -50,15 +41,10 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 
-
-
-def jsonSlurper = new JsonSlurper()
-
-def jsonResponse = jsonSlurper.parseText(response.getResponseText())
-
-
 WS.verifyResponseStatusCode(response, 200)
 
-assertThat(response.getStatusCode()).isEqualTo(200)</verificationScript>
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+assertThat(response.getStatusCode()).isIn(Arrays.asList(200, 201, 202))</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
