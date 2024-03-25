@@ -8,7 +8,7 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>-1</connectionTimeout>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
@@ -30,7 +30,7 @@
       <webElementGuid>c614cd0e-0333-4247-8090-5b8f4abd9bdf</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.3.1</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <restRequestMethod></restRequestMethod>
    <restUrl></restUrl>
    <serviceType>SOAP</serviceType>
@@ -38,8 +38,7 @@
    &lt;soapenv:Header/>
    &lt;soapenv:Body>
       &lt;tem:AddInteger>
-         &lt;tem:Arg1>10&lt;/tem:Arg1>
-         &lt;tem:Arg2>10&lt;/tem:Arg2>
+         &lt;tem:Arg>10&lt;/tem:Arg>
       &lt;/tem:AddInteger>
    &lt;/soapenv:Body>
 &lt;/soapenv:Envelope></soapBody>
@@ -47,7 +46,7 @@
    <soapRequestMethod>SOAP</soapRequestMethod>
    <soapServiceEndpoint>https://www.crcind.com:443/csp/samples/SOAP.Demo.cls</soapServiceEndpoint>
    <soapServiceFunction>AddInteger</soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>false</useServiceInfoFromWsdl>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
